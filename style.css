@@ -1,0 +1,244 @@
+/*This is for positioning HTML*/
+html {
+  position: relative;
+  min-height: 100%;
+  padding-bottom:90px;
+}
+
+/*This is for body margin */
+
+body {
+  margin-bottom: 90px;
+}
+
+/*This is for fixing Position in footer*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  text-align: center;
+}
+
+/*This is for fixing Position in footer*/
+ul{padding: 0}
+fieldset{border: 0;}
+
+/*This is for fixing Position in footer */
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/*Changing backgroung */
+.image1{
+  background-size: 
+}
+
+    
+/*fixing position of logo */
+#logo{
+    width: 30%;
+    float: left;
+    padding:0 10px;
+}
+
+/* This is for fixing phone number and logo. */
+
+
+.phoneNumber{
+	margin-left: 10px;
+}
+.myLogo{
+	margin-left: px;
+	margin-right: 350px;
+}
+.navbar-toggler {
+  border: none;
+  width: 1em;
+  float: right;
+}
+
+
+/*changing logo in purchase tab*/
+header{
+    background-color: #ffffff;
+}
+
+/*modifying top bar*/
+#top-bar {
+    clear: both;
+    width: 100%;
+    min-height: 60px;
+}
+
+/*modifying the length of navigation bar*/
+#top-bar-right {
+    width: 66%;
+    float: left;
+    padding: 5px 10px;
+}
+/*Fixing apply button*/
+#apply_btn a{
+    float: right;
+    background-color: #D32F2F;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*Fixing apply button*/
+#phone_number{
+    float:right;
+    text-decoration: none;
+    padding: 10px;
+}
+/*changing color on Menu*/
+#menu{
+  color: red;   
+}
+/*style in menu*/
+#menu li{
+list-style: none;
+float: left;
+padding: 17px 30px;
+        
+/* Test decorarion on Menu */
+}
+#menu li a{
+    text-decoration: none; 
+    font-weight: 600;
+    color: #ffffff;
+    
+    
+/* Hovering pointer in Menu for practice */
+}
+#menu li a:hover{
+    text-decoration: underline
+}
+/* Margin on Patetitle */
+#pagetitle{
+    border-bottom: none;
+
+}
+/*Creating content wrapper   */
+#content-wrapper{
+    color: white;
+}
+
+/* Size of header in program file   */
+h2,h3,h4,h5{
+    
+    font-size: 16px;
+}
+
+/* picture on purchase tab*/
+.image2{
+   
+    background-size: cover;
+    background-position: center top;
+}
+/*changing the width of forms */
+#calculator {
+    background-color: #f5f5f5;
+    width: 300px;
+    color: #212121;
+    font-weight: 600;
+}
+
+/*Giving input to calculator*/
+#calculator input, #calculator select {
+    padding: 8px;
+    width: 80%;
+}
+
+/* arranging forms in contact page */
+
+#contact_me input{
+  width:92%; 
+  line-height:10px;
+    padding: 10px;
+}
+
+/*Giving padding to the contact page*/
+#contact_me{
+    width: 300px;
+    padding: 10px 14px;
+    background-color: #f1f1f1;
+    
+}
+/*Changing width and margin of send*/
+input#send1{
+    width:70%;
+    margin-left: 10px;
+    background-color:royalblue;
+}
+/*Margin to the main Wrap*/
+#mainWrap{
+    margin: 16px
+}
+/*Margin to the form */
+#formWrap{
+    margin: 16px;
+}
+
+/*Changing position on rate */
+#rate{
+   float:left;
+}
+
+/*positioning footer*/
+.footer{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    left:0;
+    padding: 1rem;
+    background-color: #efefef;
+}
+
+
+
+/*positioning footer*/
+
+#footer{
+    padding:20px;  
+}
+
+
+/* Media Query to make responsive*/
+
+@media only screen and (max-width:1024px){
+    #logo {width:30%}
+    #top-bar-right {width:56%}
+}
+
+
+
+
+/* Media Query to make responsive*/
+
+@media only screen and (min-width: 690px) {
+    .image2 {background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+/* Media Query to make responsive*/
+
+    @media only screen and (min-width: 690px) {
+   
+    .image1 {background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+
+
+
+
+

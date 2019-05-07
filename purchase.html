@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+    <title> Dhakal Mortgage</title>
+<!--    Metatag for small device -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--      Linking bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+
+<!--    Linking CSS to HTML-->
+      <link rel="stylesheet" href="style.css">
+            
+</head>
+    
+   <body>
+        <header>
+
+<!-- Placing Image and text-->
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand" href="#">
+    <img src="house.png" width="30" height="40" class="d-inline-block align-top" alt="">
+    Dhakal Mortgage
+	  <img src="house.png" width="30" height="40" class="d-inline-block align-top" alt="">
+  </a>
+	
+<!--Creating apply button in Nav Bar-->
+    <button class="btn btn-outline-danger" type="button">Apply Now</button>
+    
+  
+</nav>
+	   </header>	
+<!--	   Fixing collepse Menu for smaller device-->
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-info nav-justified p-2">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" style="background-color: rgb(128,128,128)"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <a class="nav-item nav-link text-white active" href="purchase.html">Purchase</a>
+  <a class="nav-item nav-link text-white" href="index.html">Refinance</a>
+  <a class="nav-item nav-link text-white" href="rates.html">Rates</a>
+  <a class="nav-item nav-link text-white" href="program.html">Programs</a>
+	  <a class="nav-item nav-link text-white" href="homebuyers.html">Home Buyers</a>
+	  <a class="nav-item nav-link text-white" href="contact.html">Contact Us</a>
+	   </div>
+</nav>
+	  
+<!--  Creating forms -->
+
+<section id="mainWrap">
+    <div id="content-wrapper" class="container"> 
+        <h1 id="pagetitle" class="container">Purchase Calculator</h1>
+        <div id="calculator">
+            <form id="formWrap">
+                <div class="form-group">
+                   <label> Name: </label>
+                    <input id="name" class="form-control" type="text" placeholder="Enter your name" name="fullname">
+                </div>
+                <div class="form-group">
+                    <label> Principal Amount: </label>
+                    <input id="principleAmount" onchange="checkAmt()" type="number" placeholder="Principal Amount" required>
+                </div>
+                <div class="form-group">
+                    <label>Property type:</label>
+                   
+                    <select>
+                    <option>--Select Property--</option>
+                         <option value="singlefamily"> Single Family</option>
+                           <option value="condo">Condominium</option>
+                           <option 
+                                   vale="Spilit">Spilit</option>    
+                    </select>
+                     </div>
+                    <div class="form-group">
+                        <label>Property Occupency:</label>
+                
+                
+                <select>
+                <option>--residency status--</option>
+                    <option value="vacation-house">vacation house</option>
+                        <option value="Primary-residence">Primary Residence</option>
+                        </select>
+                    </div>
+                
+                <div class="form-group">
+                    <label>Purchase Price:</label>
+                    <input type="number" placeholder="Purchase Price">
+                    
+                </div>
+                
+                <div class="form-group">
+                    Country:
+                    
+                    <select id="test">
+                        
+                    <option ></option>
+                    
+                    </select>
+                </div>
+          
+                 <div class="form-group">
+                
+                <button class="container mb-2 col-sm-6" type="submit">Calculate</button>
+                     
+                </div>
+                
+            </form>
+        </div>
+        
+      
+    </div>
+    
+    
+      
+   <!--Old one to place sliding pictures... <div>
+
+
+  <img class="mySlides" src="floatingImage/picA.jpeg" style="width:100%">
+  
+
+
+  <img class="mySlides" src="floatingImage/picB.jpg" style="width:100%">
+  
+
+   
+  <img class="mySlides" src="floatingImage/picC.jpg" style="width:100%">
+  
+
+
+  <img class="mySlides" src="floatingImage/picD.jpg" style="width:100%">
+  
+
+  <img class="mySlides" src="floatingImage/picE.jpg" style="width:100%">
+           
+    </div>-->
+    
+  
+    
+    
+    <!--    alert message -->
+<!--<script>
+    var purchasePrice = prompt ("Enter the loan amount:");
+    if(purchasePrice >800000){
+        alert("Please contact another Big Mortgage company");
+    }
+    else{
+        alert("You can proceed this application");
+     }
+      
+</script> -->
+</section>
+
+
+<!--    Placing Footer-->
+    <footer>
+        <div class="footer">
+            @ Dhakal Mortgage
+        </div>
+    </footer>
+       
+       
+<!--	   Link for JavaScript -->
+    <script src="script.js" type="text/javascript"></script>
+       
+       
+<!--       jQuery Link-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!--       Bootstrap Link-->
+       
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
